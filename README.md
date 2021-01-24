@@ -27,7 +27,7 @@ The response data is echo'd as a JSON and displayed accordingly in the Postman c
 It is possible to create, read and manage customers and giro accounts.
 Also, between two giro accounts a wire transfer can be done with 'senderId' being the giro account id of the sending party and 'receiverId' being the giro account id of the receiving party. To authorize the transaction a 'senderPin' is needed which equals the PIN of the giro account of the sending party.
 
-<br><br>
+<br>
 
 ## Endpoints
 
@@ -45,7 +45,7 @@ Also, between two giro accounts a wire transfer can be done with 'senderId' bein
 | **PATCH** | `api/giro/:action/:id` | action: 'deposit' or 'withdraw'; id: Account ID |               pin, amount                |
 | **POST**  |       `api/wire`       |                        -                        | senderId, receiverId, senderPin, amount  |
 
-<br><br>
+<br>
 
 ## Example request bodies
 
@@ -98,7 +98,7 @@ POST api/wire
 { "senderId": "1", "receiverId": "2", "senderPin": "6791", "amount": "150" }
 ```
 
-<br><br>
+<br>
 
 ## Notes/Troubleshoot
 
@@ -110,4 +110,4 @@ The most common error will occur if request values are pre-fixed with 0's withou
 
 This project was done over a weekend and provides many possibilities for improvement and further extensions.
 
-Have fun everyon learning PHP!
+Have fun everyone at learning PHP!
