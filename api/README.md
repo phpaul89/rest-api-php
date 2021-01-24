@@ -18,8 +18,6 @@ The task is to develop a REST API in PHP utilizing a relational database for a b
 
 Install and setup the above tools for your PC. Run MAMP (or any other environment tool) to verify that your server is online at e.g. "localhost" and that the database is connected.
 
-**Important**: _If you want to run this project locally via e.g. MAMP then the "api/" folder has to be copied in placed inside the "htdocs/" folder of MAMP._
-
 Use Postman (postman.com) to send requests to the endpoints listed below. The request data has to be sent "raw" (= JSON) via the request body (see required properties in table) with the property values as String type (see also Troubleshooting).
 
 The response data is echo'd as a JSON and displayed accordingly in the Postman console.

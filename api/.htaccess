@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On 
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-s
+    RewriteRule ^(.*)$ server.php?request=$1 [QSA,NC,L]
+
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^(.*)$ server.php [QSA,NC,L]
+
+    RewriteCond %{REQUEST_FILENAME} -s
+    RewriteRule ^(.*)$ server.php [QSA,NC,L] 
+</IfModule>
