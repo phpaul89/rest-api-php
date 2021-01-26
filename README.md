@@ -27,8 +27,8 @@ The response data is echo'd as a JSON and displayed accordingly in the Postman c
 It is possible to create, read and manage customers and giro accounts.
 Also, between two giro accounts a wire transfer can be done with 'senderId' being the giro account id of the sending party and 'receiverId' being the giro account id of the receiving party. To authorize the transaction a 'senderPin' is needed which equals the PIN of the giro account of the sending party.
 
-If you create a new "User" a customer number will be set automatically (unique, starting with "1").
-If you create a new "Giro Account" an account number will be set automatically (unique, starting with "0") and the deposit will be initially set to "0".
+If a new "User" is created, then a customer number will be set automatically (unique, starting with "1").
+If a new "Giro Account" is created, then an account number will be set automatically (unique, starting with "1") and the deposit will be initially set to "0".
 
 <br>
 
