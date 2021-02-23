@@ -1,6 +1,6 @@
 # Overview
 
-3 day challenge: The task is to develop a REST API in PHP utilizing a relational database for a banking service without any prior knowledge about PHP. It should be possible to manage customers, giro accounts and transactions.
+3 day challenge: The task is to develop a REST API in PHP utilizing a relational database for a banking service without any prior knowledge with PHP. It should be possible to manage customers, giro accounts and transactions.
 <br><br>
 
 ## Tools
